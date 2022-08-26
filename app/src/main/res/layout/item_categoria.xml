@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/style_borde_cat">
+
+        <ImageView
+            android:id="@+id/ivcategoria"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/tvNombreCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:autoText="true"
+            android:elegantTextHeight="true"
+            android:paddingTop="-15dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textIsSelectable="false"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivcategoria" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
